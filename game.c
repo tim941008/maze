@@ -580,8 +580,8 @@ void setrender(SDL_Renderer* renderer, int size) {
 }
 int showmessage(const char* s, SDL_Window* window) {
     const SDL_MessageBoxButtonData buttons[] = {
-        {SDL_MESSAGEBOX_BUTTON_RETURNKEY_DEFAULT, 1, "Yes"},
-        {SDL_MESSAGEBOX_BUTTON_ESCAPEKEY_DEFAULT, 0, "No"}};
+        {SDL_MESSAGEBOX_BUTTON_RETURNKEY_DEFAULT, 1, u8"是"},
+        {SDL_MESSAGEBOX_BUTTON_ESCAPEKEY_DEFAULT, 0, u8"否"}};
     // 定義訊息框的資料
     const SDL_MessageBoxData messageBoxData = {
         SDL_MESSAGEBOX_INFORMATION,  // 訊息框類型
