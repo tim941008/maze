@@ -1,0 +1,25 @@
+# 編譯產物
+*.exe
+*.out
+*.o
+*.obj
+
+# 臨時檔
+*.log
+*.tmp
+*.bak
+
+# SDL2 / 第三方庫
+*.dll
+*.lib
+*.so
+*.dylib
+
+# IDE 設定檔
+.vscode/
+*.cbp
+*.sln
+*.vcxproj
+
+
+
